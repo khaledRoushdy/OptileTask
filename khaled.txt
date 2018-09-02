@@ -1,0 +1,12 @@
+	private IWebElement hh(){
+	 var hhLocator = _parser.GetElementByName("hh");
+	 var hh = Browser.Driver.WebDriver.InspectElement(hhLocator, _test);
+	 return hh
+	}
+
+	private IWebElement nn(){
+	 var nnLocator = _parser.GetElementByName("nn");
+	 var nn = Browser.Driver.WebDriver.InspectElement(nnLocator, _test);
+	 return nn
+	}
+

@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SmokeTests">
+
+	<test name="Tests">
+	    <parameter name="email"  value=""/>
+	    <parameter name="password"  value=""/>
+	    <parameter name="receipentEmail" value=""/>
+	    <parameter name="newFirstName" value=""/>
+	    <parameter name="newLastName" value=""/>
+	    <parameter name="fileName" value=""/>
+		<classes>
+			<class name="com.optile.dropbox.tests.SmokeUiTests"/>
+			<class name="com.optile.dropbox.tests.UploadFileTests"/>
+		</classes>
+	</test>
+
+</suite>
