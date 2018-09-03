@@ -37,8 +37,5 @@ public class Browser {
 
 		}
 		return webdriver;
-
 	}
-
-
 }

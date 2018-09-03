@@ -27,10 +27,6 @@ public class Utilities {
 
 		return sb.toString();
 	}
-	
-	public WebDriverWait getWebdriver(WebDriver driver) {
-		return new WebDriverWait(driver, 30);
-	}
 
 	public static void waitUntilElementIsVisible(By locator,WebDriverWait wait) {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
